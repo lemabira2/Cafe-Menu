@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Cafe Menu</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>☕ My Cafe</h1>
+
+    <p>Welcome to our menu</p>
+
+    <h2>Our Menu</h2>
+
+    <!-- Category Buttons -->
+    <div class="categories">
+
+        <button onclick="showCategory('coffee')">
+            Coffee
+        </button>
+
+        <button onclick="showCategory('food')">
+            Food
+        </button>
+
+        <button onclick="showCategory('dessert')">
+            Desserts
+        </button>
+
+    </div>
+
+
+    <!-- Coffee -->
+    <div id="coffee" class="menu-card">
+
+        <h3>☕ Coffee</h3>
+
+        <img src="images/coffee.jpg" alt="Coffee">
+
+        <p>Espresso — 80 Birr</p>
+        <p>Cappuccino — 120 Birr</p>
+        <p>Macchiato — 100 Birr</p>
+
+    </div>
+
+
+    <!-- Food -->
+    <div id="food" class="menu-card">
+
+        <h3>🍔 Food</h3>
+
+        <img src="images/burger.jpg" alt="Burger">
+
+        <p>Burger — 250 Birr</p>
+        <p>Pizza — 300 Birr</p>
+        <p>Sandwich — 180 Birr</p>
+
+    </div>
+
+
+    <!-- Desserts -->
+    <div id="dessert" class="menu-card">
+
+        <h3>🍰 Desserts</h3>
+
+        <img src="images/cake.jpg" alt="Cake">
+
+        <p>Cake — 150 Birr</p>
+        <p>Ice Cream — 100 Birr</p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
